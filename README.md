@@ -145,12 +145,8 @@ Alerts are currently stored locally in JSONL files.
 
 ### Clone the repository
 
-```bash
-git clone YOUR_REPOSITORY_URL
-cd pipeline-reliability-agent
-```
-
-Replace `YOUR_REPOSITORY_URL` with the actual GitHub URL after publication.
+git clone https://github.com/Suyash303/agentic-pipeline-reliability-engineer.git
+cd agentic-pipeline-reliability-engineer
 
 ### Create a virtual environment
 
