@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# API credentials
+.env
+.env.*
+!.env.example
+
+# Runtime logs and monitoring state
+logs/*
+!logs/.gitkeep
+
+# Generated output files
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Temporary backup files
+src/*_backup.py
+data/raw/*backup*.csv
+data/raw/*failure*.csv
+
+# Editor files
+.vscode/
+.idea/
+tests/*_backup.py
+/backups/
